@@ -110,6 +110,8 @@
     <Content Include="..\packages\Tesseract.4.1.0-beta1\x86\tesseract41.dll">
       <Link>x86\tesseract41.dll</Link>
     </Content>
+    <Content Include="Data\Readme.txt" />
+    <Content Include="Data\Sample.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Tesseract.4.1.0-beta1\build\Tesseract.targets" Condition="Exists('..\packages\Tesseract.4.1.0-beta1\build\Tesseract.targets')" />

@@ -1,0 +1,153 @@
+﻿0.91
+
+Emo)
+
+PX-1 (Revision)
+FORMAT: PX-1 (Revision,
+Email: pcl.enerqgy@prismjohnson.in, narendra.singhai@prismjohnson.in, FAX NO-07672-275303
+
+jabirkhan@prismjohnson.in, shiv.dwivedi@prismjohnson.in, mayank gupta@mittalsgroup.com
+STANDING CLEARANCE/NO OBJECTION CERTIFICATE
+
+Format in which standing clearance/NOC is to be given by SLDCs to a State or intra state entity for submission
+to Power Exchange.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+NOC.No_07-05/RPC-53B/PRISM UNIT-Il/ 2074 Jabalpur/ Date: 03.08.19
+1. Name of the SLDC State Load Despatch Center, MPPTCL, Jabalpur
+2. Region West
+3. Name of the Entity M/s.PRISM JOHNSON LIMITED CEMENT DIVISION — UNIT II
+4. State of entity : Limited Company / HT Consumer
+5. Point(s) of connection 132 dedicated feeders connected through 220/132 S/s, Kotar, Satna
+6. Max.MW ceiling allowed for injection
+7. Max.MW ceiling allowed for Drawal As Per Table
+8. Validity period 05.08.2019 to 31.08.2019.
+From To Time Period Capacity (MW)
+(Date) (Date) From (Hrs.) To (Hrs.)
+05.08.19 05.08.19 00.00 08.00 07.06(Regular) |
+| 05.08.19 05.08.19 08.00 24.00 0.00 (Revised)
+06.08.19 06.08.19 00.00 24.00 0.00 (Revised)
+07.08.19 07.08.19 00.00 17.00 0.00 (Revised)
+07.08.19 07.08.19 17.00 24.00 07.06(Regular)
+08.08.19 31.08.19 00.00 24.00 | 07.06(Regular) |
+9. Transmission losses (besides Regional Transmission losses) _
+[ Whether applicable or not (Yes/No) (% ) loss
+State transmission losses YES 2.50%
+Distribution licensees losses NA
+Any other losses NA
+10. Transmission charges (besides regional transmission charges)
+[ Whether applicable or not (Yes/No.) Rate (Rs./Mwh) __ |
+State Transmission charges YES 93.70
+Distribution licensees NA
+Any other charges SLDC Scheduling & Operation Charges Rs.3000/day /transaction _|
+
+ 
+
+ 
+
+ 
+
+ 
+
+a. We have “No Objection” to seeking and availing Open Access by M/s. Prism Cement Limited, Mankahari,
+Satna through Power Exchange up to as per table MW ceiling as specified above, in accordance with
+applicable regulations of CERC/MPERC.
+
+b. We have the required infrastructure for energy metering and time block wise accounting in place.
+
+The State network has the required transfer capacity for transfer of power as per specified ceiling
+
+c. The transmission charges for the use of State network and operating charges for the state Load
+Despatch Centers shall be directly settled by Power exchange with us.
+
+d. The State utility designated for the purpose of collection/disbursement of DSM charges shall be
+responsible for timely payment of state's composite dues into the Regional Pool Account.
+
+e. Any mismatch between the scheduled and actual drawal/injection for the intra-state entity shall be
+
+determined by us and will be covered in the intra-State DSM accounting schedule, or as applicable
+
+The reactive Energy Charges shall be governed by Regulations applicable within the State.
+
+g. We shall disburse the Transmission charges for use of the State Network to the State transmission utility
+directly
+
+h. We shall inform the total import and export capacity of the state as a whole to all concerned.
+
+Attempt shall be made to declare this in advance through our website
+
+i. Any change in the contents of the Standing Clearance/NOC shall be conveyed to the party to whom
+Standing Clearance/NOC was given, latest by 10 Hrs. of the day prior to the day of transaction. In such
+cases, the Power Exchange(s) shall also be informed simultaneously
+
+j. The Applicant shall ensure that aggregate quantum in each time block for all the bids in collective
+transaction shall not exceed the quantum for which No objection or prior standing clearance has been
+granted here with
+
+k. Cross Subsidy charges as per MPERC order shall be directly paid to distribution licensee i.e.
+MPPKVVCL by the M/s. Prism Cement Limited, Mankahari, Satna.
+
+|. Standing clearance /NOC is given herewith as above, shall replace our earlier standing clearance
+/NOC for dated 01.08.19 to 31.08.19 conveyed vide this office letter RPC-53B/ ry IT-Il (2004
+
+\
+
+Dtd. 25.07.19.
+
+Place: Jabalpur S.E.(LD:ABT & OA)
+Date MPPTCL, JABALPUR
+Copyto:- 1. The C.G.M.(Commercial), EZ, MPPKVVCL, Jabalpur.
+2. The Chief Engineer (Pig. & Design), MPPTCL, Jabalpur
+3. The Chief Engineer (T&C) MPPTCL, Jabalpur
+4. The Chief Engineer (Rewa Region), MPPKVVCL, Arjun Nagar Rewa
+
+   
