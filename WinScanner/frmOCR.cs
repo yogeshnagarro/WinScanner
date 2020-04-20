@@ -7,44 +7,54 @@ namespace WinScanner
 {
     using System.Diagnostics.Contracts;
     using System.Dynamic;
+    using System.IO;
+    using System.Text;
     using Tesseract;
 
     public partial class frmOCR : Form
     {
+        private readonly FolderBrowserDialog folderBrowserDialog;
+
         public frmOCR()
         {
             InitializeComponent();
-        }
-
-        private void frmOCR_Load(object sender, EventArgs e)
-        {
-            
+            folderBrowserDialog = new FolderBrowserDialog();
         }
 
         private void btnBrowse_Click(object sender, EventArgs e)
         {
-            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
             {
-
-                textBox1.Text = openFileDialog1.FileName;
-                pictureBox1.ImageLocation = (openFileDialog1.FileName);
+                textBox1.Text = folderBrowserDialog.SelectedPath;
+                pictureBox1.ImageLocation = (fileOpenDialog.FileName);
                 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                 //DoOCRing(openFileDialog1.FileName);
             }
         }
 
-        private void DoOCRing(string filePath)
+        private void DoOCRing(string folderPath)
         {
             using (var engine = new TesseractEngine(@"./tessdata", "eng", EngineMode.Default))
             {
-                using (var img = Pix.LoadFromFile(filePath))
+                foreach (var filePath in Directory.GetFiles(folderPath, "*.png"))
                 {
-                    using (var page = engine.Process(img))
+                    using (var img = Pix.LoadFromFile(filePath))
                     {
-                        richTextBox1.Text += page.GetMeanConfidence() + Environment.NewLine;
-                        richTextBox1.Text += Environment.NewLine + page.GetText();
+                        using (var page = engine.Process(img))
+                        {
+                            //richTextBox1.Text += page.GetMeanConfidence() + Environment.NewLine;
+                            StringBuilder sb = new StringBuilder();
+                            sb.Append(page.GetText());
+                            richTextBox1.Text += filePath + Environment.NewLine + sb.ToString();
+                            File.AppendAllText(Path.Combine(folderPath, "Speach.txt"), "*".PadRight(80, '*') + Environment.NewLine +
+                                filePath + Environment.NewLine
+                                + "*".PadRight(80, '*') + Environment.NewLine
+                                + sb.ToString());
+                            Application.DoEvents();
+                        }
                     }
                 }
+
             }
         }
 
@@ -56,6 +66,20 @@ namespace WinScanner
             MessageBox.Show("Scan completed.", "OCR Scan", MessageBoxButtons.OK, MessageBoxIcon.Information);
             UseWaitCursor = false;
             btnBrowse.Enabled = button1.Enabled = true;
+        }
+
+        private void ConvertPDFToImages(string filePath)
+        {
+            PDFHelper.ExtractImage(filePath);
+        }
+
+        private void btnPdfConvert_Click(object sender, EventArgs e)
+        {
+            fileOpenDialog.Filter = "PDF Files|*.pdf";
+            if (fileOpenDialog.ShowDialog() == DialogResult.OK)
+            {
+               ConvertPDFToImages( fileOpenDialog.FileName);
+            }
         }
     }
 }
